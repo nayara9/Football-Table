@@ -1,0 +1,107 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;   
+    margin: auto; 
+    width: 50%;
+}
+table {
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+}  
+thead {
+    font-size: 13px;
+    font-weight: bold;
+    color: #999999;
+    text-align: center;
+    border-bottom: 1px solid #DDDDDD;
+    height: 23px;
+}
+tbody {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+td {
+    border-bottom: 1px solid #DDDDDD;
+    height: 30px;
+}
+.libert , .preLibert , .sulAmer , .participante , .rebaixado {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 45px;  
+}
+.libert {
+    color:#003366;  
+}
+.preLibert {
+    color:#1398BE ;
+}
+.sulAmer {
+    color:#DE9800;
+}
+.participante {
+    color:#CCCCCC;
+}
+.rebaixado {
+    color:#C91B04;
+}
+.time  {
+    font-weight: bold;
+    color: #666666;
+    text-align: left;
+    width: 200px;
+}
+.score {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.gamesPercent {
+    width: 45px;
+}
+.games, .gamesBackground, .score {
+    width: 40px;
+}
+.gamesBackground, .score, .gamesPercent {
+    background-color:#F7F7F7 ; 
+}
+.lineStyle {
+    border-bottom: 2px solid #CCCCCC;
+}
+tfoot td {
+    font-size: 10px;
+    padding-left: 15px; 
+    border-bottom: none;  
+    height: 13px; 
+}
+.legendColors td {
+    color:  #8F8F8F;
+    text-align: left;
+    padding-top: 8px;
+}
+.color .colorLibert, .color .colorPrelibert, .color .colorSulamer, .color .colorRebaixado {
+    width: 11px;
+    height: 11px;
+    border-radius: 3px;
+    display: inline-block
+}
+.colorLibert {
+    background-color: #003366;
+}
+.colorPrelibert {
+    background-color: #1398BE;
+}
+.colorSulamer {
+    background-color: #DE9800;
+}
+.colorRebaixado {
+    background-color: #C91B04;
+}
+.legendSigla {
+    color: #555555;
+}
+.sigla {
+    display: inline-block;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
